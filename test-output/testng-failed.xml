@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven Basics]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.meto.appium.extentreports.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="App Manager Login Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFLogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setupg"/>
+          <include name="FormLogin"/>
+          <include name="preSetup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFLogin -->
+    </classes>
+  </test> <!-- App Manager Login Test(failed) -->
+  <test thread-count="5" name="Prospect Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFProspect">
+        <methods>
+          <include name="setupg"/>
+          <include name="Prospect"/>
+          <include name="teardown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFProspect -->
+    </classes>
+  </test> <!-- Prospect Test(failed) -->
+  <test thread-count="5" name="Customer Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFCustomer">
+        <methods>
+          <include name="TestCustomer"/>
+          <include name="beforeMethod"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFCustomer -->
+    </classes>
+  </test> <!-- Customer Test(failed) -->
+  <test thread-count="5" name="Business Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFBusiness">
+        <methods>
+          <include name="TestBusiness"/>
+          <include name="setupg"/>
+          <include name="beforeMethod"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFBusiness -->
+    </classes>
+  </test> <!-- Business Test(failed) -->
+  <test thread-count="5" name="Rse Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFRse">
+        <methods>
+          <include name="TestRse"/>
+          <include name="beforeMethod"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFRse -->
+    </classes>
+  </test> <!-- Rse Test(failed) -->
+  <test thread-count="5" name="Proposal Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFProposal">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TestProposal"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFProposal -->
+    </classes>
+  </test> <!-- Proposal Test(failed) -->
+  <test thread-count="5" name="Contract Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFContract">
+        <methods>
+          <include name="setupg"/>
+          <include name="beforeMethod"/>
+          <include name="TestContract"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFContract -->
+    </classes>
+  </test> <!-- Contract Test(failed) -->
+  <test thread-count="5" name="Customer two Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFCustomertwo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TestCustomertwo"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFCustomertwo -->
+    </classes>
+  </test> <!-- Customer two Test(failed) -->
+  <test thread-count="5" name="Business two Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFBusinesstwo">
+        <methods>
+          <include name="TestBusinesstwo"/>
+          <include name="setupg"/>
+          <include name="beforeMethod"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFBusinesstwo -->
+    </classes>
+  </test> <!-- Business two Test(failed) -->
+  <test thread-count="5" name="Rse two Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFRsetwo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TestRsetwo"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFRsetwo -->
+    </classes>
+  </test> <!-- Rse two Test(failed) -->
+  <test thread-count="5" name="Proposal two Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFProposaltwo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TestProposaltwo"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFProposaltwo -->
+    </classes>
+  </test> <!-- Proposal two Test(failed) -->
+  <test thread-count="5" name="Contract two Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFContracttwo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TestContracttwo"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFContracttwo -->
+    </classes>
+  </test> <!-- Contract two Test(failed) -->
+  <test thread-count="5" name="Customer three Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFCustomerthree">
+        <methods>
+          <include name="TestCustomerthree"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFCustomerthree -->
+    </classes>
+  </test> <!-- Customer three Test(failed) -->
+  <test thread-count="5" name="Business three Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFBusinessthree">
+        <methods>
+          <include name="setupg"/>
+          <include name="TestBusinessthree"/>
+          <include name="teardown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFBusinessthree -->
+    </classes>
+  </test> <!-- Business three Test(failed) -->
+  <test thread-count="5" name="Rse three Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFRsethree">
+        <methods>
+          <include name="setupg"/>
+          <include name="TestRsethree"/>
+          <include name="teardown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFRsethree -->
+    </classes>
+  </test> <!-- Rse three Test(failed) -->
+  <test thread-count="5" name="Proposal three Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFProposalthree">
+        <methods>
+          <include name="setupg"/>
+          <include name="beforeMethod"/>
+          <include name="teardown"/>
+          <include name="TestProposalthree"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFProposalthree -->
+    </classes>
+  </test> <!-- Proposal three Test(failed) -->
+  <test thread-count="5" name="Contract three Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFContractthree">
+        <methods>
+          <include name="setupg"/>
+          <include name="beforeMethod"/>
+          <include name="teardown"/>
+          <include name="TestContractthree"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFContractthree -->
+    </classes>
+  </test> <!-- Contract three Test(failed) -->
+  <test thread-count="5" name="Customer four Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFCustomerfour">
+        <methods>
+          <include name="setupg"/>
+          <include name="teardown"/>
+          <include name="TestCustomerfour"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFCustomerfour -->
+    </classes>
+  </test> <!-- Customer four Test(failed) -->
+  <test thread-count="5" name="Business four Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFBusinessfour">
+        <methods>
+          <include name="setupg"/>
+          <include name="TestBusinessfour"/>
+          <include name="teardown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFBusinessfour -->
+    </classes>
+  </test> <!-- Business four Test(failed) -->
+  <test thread-count="5" name="Rse four Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFRsefour">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setupg"/>
+          <include name="TestRsefour"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFRsefour -->
+    </classes>
+  </test> <!-- Rse four Test(failed) -->
+  <test thread-count="5" name="Proposal four Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFProposalfour">
+        <methods>
+          <include name="setupg"/>
+          <include name="TestProposalfour"/>
+          <include name="beforeMethod"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFProposalfour -->
+    </classes>
+  </test> <!-- Proposal four Test(failed) -->
+  <test thread-count="5" name="Contract four Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFContractfour">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TestContractfour"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFContractfour -->
+    </classes>
+  </test> <!-- Contract four Test(failed) -->
+  <test thread-count="5" name="Customer five Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFCustomerfive">
+        <methods>
+          <include name="Customerfive"/>
+          <include name="setupg"/>
+          <include name="beforeMethod"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFCustomerfive -->
+    </classes>
+  </test> <!-- Customer five Test(failed) -->
+  <test thread-count="5" name="Business five Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFBusinessfive">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setupg"/>
+          <include name="TestBusinessfive"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFBusinessfive -->
+    </classes>
+  </test> <!-- Business five Test(failed) -->
+  <test thread-count="5" name="Rse five Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFRsefive">
+        <methods>
+          <include name="setupg"/>
+          <include name="TestRsefive"/>
+          <include name="teardown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFRsefive -->
+    </classes>
+  </test> <!-- Rse five Test(failed) -->
+  <test thread-count="5" name="Proposal five Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFProposalfive">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TestProposalfive"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFProposalfive -->
+    </classes>
+  </test> <!-- Proposal five Test(failed) -->
+  <test thread-count="5" name="Contract five Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFContractfive">
+        <methods>
+          <include name="setupg"/>
+          <include name="teardown"/>
+          <include name="TestContractfive"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFContractfive -->
+    </classes>
+  </test> <!-- Contract five Test(failed) -->
+  <test thread-count="5" name="Customer six Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFCustomersix">
+        <methods>
+          <include name="Customersix"/>
+          <include name="beforeMethod"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFCustomersix -->
+    </classes>
+  </test> <!-- Customer six Test(failed) -->
+  <test thread-count="5" name="Business six Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFBusinesssix">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TestBusinesssix"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFBusinesssix -->
+    </classes>
+  </test> <!-- Business six Test(failed) -->
+  <test thread-count="5" name="Rse six Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFRsesix">
+        <methods>
+          <include name="setupg"/>
+          <include name="beforeMethod"/>
+          <include name="TestRsesix"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFRsesix -->
+    </classes>
+  </test> <!-- Rse six Test(failed) -->
+  <test thread-count="5" name="Proposal six Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFProposalsix">
+        <methods>
+          <include name="TestProposalsix"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFProposalsix -->
+    </classes>
+  </test> <!-- Proposal six Test(failed) -->
+  <test thread-count="5" name="Contract six Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFContractsix">
+        <methods>
+          <include name="TestContractsix"/>
+          <include name="setupg"/>
+          <include name="teardown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFContractsix -->
+    </classes>
+  </test> <!-- Contract six Test(failed) -->
+  <test thread-count="5" name="Signature Test(failed)">
+    <classes>
+      <class name="org.meto.appium.tests.TFSignature">
+        <methods>
+          <include name="setupg"/>
+          <include name="TestSignature"/>
+          <include name="teardown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.meto.appium.tests.TFSignature -->
+    </classes>
+  </test> <!-- Signature Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Basics] -->

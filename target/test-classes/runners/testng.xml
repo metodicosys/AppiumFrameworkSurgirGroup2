@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+<listeners>
+<listener class-name="org.meto.appium.extentreports.Listeners"/>
+</listeners>
+
+	<test name="App Manager Login Test">
+		<classes>
+			<class name="org.meto.appium.tests.TFLogin" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Prospect Test">
+		<classes>
+			<class name="org.meto.appium.tests.TFProspect" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Customer Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFCustomer" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Business Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFBusiness" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+		<test name="Rse Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFRse" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Proposal Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFProposal" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Contract Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFContract" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Customer two Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFCustomertwo" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Business two Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFBusinesstwo" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Rse two Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFRsetwo" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Proposal two Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFProposaltwo" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Contract two Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFContracttwo" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Customer three Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFCustomerthree" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Business three Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFBusinessthree" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Rse three Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFRsethree" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Proposal three Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFProposalthree" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Contract three Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFContractthree" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Customer four Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFCustomerfour" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Business four Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFBusinessfour" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Rse four Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFRsefour" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Proposal four Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFProposalfour" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Contract four Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFContractfour" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Customer five Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFCustomerfive" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Business five Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFBusinessfive" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Rse five Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFRsefive" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Proposal five Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFProposalfive" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Contract five Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFContractfive" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Customer six Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFCustomersix" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Business six Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFBusinesssix" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Rse six Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFRsesix" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Proposal six Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFProposalsix" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Contract six Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFContractsix" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<test name="Signature Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFSignature" /> 
+		</classes> 
+	</test>  <!-- Test -->
+	
+	<!-- <test name="Open Account Test"> <classes> <class name="com.m2a.testcases.OpenAccountTest" 
+		/> </classes> </test> -->   <!-- Test -->
+
+</suite> <!-- Suite -->

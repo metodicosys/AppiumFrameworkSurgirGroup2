@@ -1,0 +1,2 @@
+-En grupal no debe tener tipo de patrimonio en tab cliente
+-No tiene datos de conyugue
